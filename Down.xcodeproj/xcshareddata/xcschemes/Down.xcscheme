@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Down::libcmark"
+               BlueprintIdentifier = "C04899A125FB6375005F8856"
                BuildableName = "libcmark.framework"
                BlueprintName = "libcmark"
                ReferencedContainer = "container:Down.xcodeproj">
