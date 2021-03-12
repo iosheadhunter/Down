@@ -21,22 +21,41 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		C0A4484625FB5CEB004C3AE0 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484725FB5CEB004C3AE0 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* chunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484825FB5CEB004C3AE0 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484925FB5CEB004C3AE0 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* references.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484A25FB5CEB004C3AE0 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* scanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484B25FB5CEB004C3AE0 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484C25FB5CEB004C3AE0 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484D25FB5CEB004C3AE0 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484E25FB5CEB004C3AE0 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4484F25FB5CEB004C3AE0 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4485025FB5CEB004C3AE0 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4485125FB5CEB004C3AE0 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* render.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4485225FB5CEB004C3AE0 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* inlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4485325FB5CEB004C3AE0 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* cmark_ctype.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4485425FB5CEB004C3AE0 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A4485525FB5CEB004C3AE0 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* houdini.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D60AAD25FB5E7A00206BD4 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* blocks.c */; };
+		C0D60AB325FB5E8900206BD4 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* parser.h */; };
+		C0D60AB425FB5E8900206BD4 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* cmark_version.h */; };
+		C0D60AB525FB5E8900206BD4 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* inlines.h */; };
+		C0D60AB625FB5E8900206BD4 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* scanners.h */; };
+		C0D60AB725FB5E8900206BD4 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* utf8.h */; };
+		C0D60AB825FB5E8900206BD4 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* render.h */; };
+		C0D60AB925FB5E8900206BD4 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* buffer.h */; };
+		C0D60ABA25FB5E8900206BD4 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* iterator.h */; };
+		C0D60ABB25FB5E8900206BD4 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* references.h */; };
+		C0D60ABC25FB5E8900206BD4 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* cmark.h */; };
+		C0D60ABD25FB5E8900206BD4 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* houdini.h */; };
+		C0D60ABE25FB5E8900206BD4 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* cmark_ctype.h */; };
+		C0D60ABF25FB5E8900206BD4 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* cmark_export.h */; };
+		C0D60AC025FB5E8900206BD4 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* config.h */; };
+		C0D60AC125FB5E8900206BD4 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* chunk.h */; };
+		C0D60AC225FB5E8900206BD4 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* node.h */; };
+		C0D60AC925FB5E9900206BD4 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* scanners.c */; };
+		C0D60ACA25FB5E9900206BD4 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* houdini_html_e.c */; };
+		C0D60ACB25FB5E9900206BD4 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* latex.c */; };
+		C0D60ACC25FB5E9900206BD4 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* houdini_href_e.c */; };
+		C0D60ACD25FB5E9900206BD4 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* houdini_html_u.c */; };
+		C0D60ACE25FB5E9900206BD4 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* utf8.c */; };
+		C0D60ACF25FB5E9900206BD4 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* xml.c */; };
+		C0D60AD025FB5E9900206BD4 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* buffer.c */; };
+		C0D60AD125FB5E9900206BD4 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* html.c */; };
+		C0D60AD225FB5E9900206BD4 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* references.c */; };
+		C0D60AD325FB5E9900206BD4 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* man.c */; };
+		C0D60AD425FB5E9900206BD4 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* render.c */; };
+		C0D60AD525FB5E9900206BD4 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* inlines.c */; };
+		C0D60AD625FB5E9900206BD4 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* iterator.c */; };
+		C0D60AD725FB5E9900206BD4 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* commonmark.c */; };
+		C0D60AD825FB5E9900206BD4 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* node.c */; };
+		C0D60AD925FB5E9900206BD4 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* cmark.c */; };
+		C0D60ADA25FB5E9900206BD4 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* cmark_ctype.c */; };
 		OBJ_180 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BaseNode.swift */; };
 		OBJ_181 /* BlockQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BlockQuote.swift */; };
 		OBJ_182 /* ChildSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ChildSequence.swift */; };
@@ -102,7 +121,6 @@
 		OBJ_242 /* DownXMLRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* DownXMLRenderable.swift */; };
 		OBJ_243 /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* BundleHelper.swift */; };
 		OBJ_244 /* DownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* DownView.swift */; };
-		OBJ_246 /* libcmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Down::libcmark::Product" /* libcmark.framework */; };
 		OBJ_254 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_265 /* ListItemPrefixGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* ListItemPrefixGeneratorTests.swift */; };
 		OBJ_266 /* NodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* NodeTests.swift */; };
@@ -114,49 +132,15 @@
 		OBJ_272 /* NSAttributedString+HelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* NSAttributedString+HelpersTests.swift */; };
 		OBJ_273 /* NSMutableAttributedString+AttributesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* NSMutableAttributedString+AttributesTests.swift */; };
 		OBJ_275 /* Down.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Down::Down::Product" /* Down.framework */; };
-		OBJ_276 /* libcmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Down::libcmark::Product" /* libcmark.framework */; };
-		OBJ_283 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* blocks.c */; };
-		OBJ_284 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* buffer.c */; };
-		OBJ_285 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* cmark.c */; };
-		OBJ_286 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* cmark_ctype.c */; };
-		OBJ_287 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* commonmark.c */; };
-		OBJ_288 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* houdini_href_e.c */; };
-		OBJ_289 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* houdini_html_e.c */; };
-		OBJ_290 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* houdini_html_u.c */; };
-		OBJ_291 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* html.c */; };
-		OBJ_292 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* inlines.c */; };
-		OBJ_293 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* iterator.c */; };
-		OBJ_294 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* latex.c */; };
-		OBJ_295 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* man.c */; };
-		OBJ_296 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* node.c */; };
-		OBJ_297 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* references.c */; };
-		OBJ_298 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* render.c */; };
-		OBJ_299 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* scanners.c */; };
-		OBJ_300 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* utf8.c */; };
-		OBJ_301 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* xml.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C01AF75525FB436E00FAE709 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Down::libcmark";
-			remoteInfo = libcmark;
-		};
 		C01AF75625FB436E00FAE709 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Down::Down";
 			remoteInfo = Down;
-		};
-		C01AF75725FB436E00FAE709 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Down::libcmark";
-			remoteInfo = libcmark;
 		};
 		C01AF75A25FB437000FAE709 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -171,7 +155,6 @@
 		C0A4483925FB5AD9004C3AE0 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		"Down::Down::Product" /* Down.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Down::DownTests::Product" /* DownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = DownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Down::libcmark::Product" /* libcmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libcmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* cmark_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmark_version.h; sourceTree = "<group>"; };
 		OBJ_101 /* cmark_ctype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmark_ctype.h; sourceTree = "<group>"; };
 		OBJ_102 /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
@@ -319,7 +302,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_246 /* libcmark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,14 +310,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_275 /* Down.framework in Frameworks */,
-				OBJ_276 /* libcmark.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_302 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +417,6 @@
 			isa = PBXGroup;
 			children = (
 				"Down::DownTests::Product" /* DownTests.xctest */,
-				"Down::libcmark::Product" /* libcmark.framework */,
 				"Down::Down::Product" /* Down.framework */,
 			);
 			name = Products;
@@ -710,29 +683,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0A4484525FB5CE7004C3AE0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0A4485025FB5CEB004C3AE0 /* cmark_version.h in Headers */,
-				C0A4485325FB5CEB004C3AE0 /* cmark_ctype.h in Headers */,
-				C0A4484E25FB5CEB004C3AE0 /* cmark_export.h in Headers */,
-				C0A4485125FB5CEB004C3AE0 /* render.h in Headers */,
-				C0A4485225FB5CEB004C3AE0 /* inlines.h in Headers */,
-				C0A4484B25FB5CEB004C3AE0 /* node.h in Headers */,
-				C0A4484925FB5CEB004C3AE0 /* references.h in Headers */,
-				C0A4484D25FB5CEB004C3AE0 /* iterator.h in Headers */,
-				C0A4484725FB5CEB004C3AE0 /* chunk.h in Headers */,
-				C0A4484F25FB5CEB004C3AE0 /* utf8.h in Headers */,
-				C0A4484C25FB5CEB004C3AE0 /* cmark.h in Headers */,
-				C0A4484A25FB5CEB004C3AE0 /* scanners.h in Headers */,
-				C0A4484625FB5CEB004C3AE0 /* buffer.h in Headers */,
-				C0A4484825FB5CEB004C3AE0 /* parser.h in Headers */,
-				C0A4485425FB5CEB004C3AE0 /* config.h in Headers */,
-				C0A4485525FB5CEB004C3AE0 /* houdini.h in Headers */,
+				C0D60AC125FB5E8900206BD4 /* chunk.h in Headers */,
+				C0D60AB725FB5E8900206BD4 /* utf8.h in Headers */,
+				C0D60AC225FB5E8900206BD4 /* node.h in Headers */,
+				C0D60AB425FB5E8900206BD4 /* cmark_version.h in Headers */,
+				C0D60ABA25FB5E8900206BD4 /* iterator.h in Headers */,
+				C0D60ABC25FB5E8900206BD4 /* cmark.h in Headers */,
+				C0D60AB825FB5E8900206BD4 /* render.h in Headers */,
+				C0D60ABB25FB5E8900206BD4 /* references.h in Headers */,
+				C0D60AC025FB5E8900206BD4 /* config.h in Headers */,
+				C0D60AB625FB5E8900206BD4 /* scanners.h in Headers */,
+				C0D60ABF25FB5E8900206BD4 /* cmark_export.h in Headers */,
+				C0D60AB925FB5E8900206BD4 /* buffer.h in Headers */,
+				C0D60AB325FB5E8900206BD4 /* parser.h in Headers */,
+				C0D60ABE25FB5E8900206BD4 /* cmark_ctype.h in Headers */,
+				C0D60ABD25FB5E8900206BD4 /* houdini.h in Headers */,
+				C0D60AB525FB5E8900206BD4 /* inlines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,7 +716,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_247 /* PBXTargetDependency */,
 			);
 			name = Down;
 			productName = Down;
@@ -768,7 +733,6 @@
 			);
 			dependencies = (
 				OBJ_277 /* PBXTargetDependency */,
-				OBJ_278 /* PBXTargetDependency */,
 			);
 			name = DownTests;
 			productName = DownTests;
@@ -787,23 +751,6 @@
 			);
 			name = DownPackageDescription;
 			productName = DownPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
-		"Down::libcmark" /* libcmark */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_279 /* Build configuration list for PBXNativeTarget "libcmark" */;
-			buildPhases = (
-				C0A4484525FB5CE7004C3AE0 /* Headers */,
-				OBJ_282 /* Sources */,
-				OBJ_302 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = libcmark;
-			productName = libcmark;
-			productReference = "Down::libcmark::Product" /* libcmark.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -828,7 +775,6 @@
 			projectRoot = "";
 			targets = (
 				"Down::Down" /* Down */,
-				"Down::libcmark" /* libcmark */,
 				"Down::SwiftPMPackageDescription" /* DownPackageDescription */,
 				"Down::DownPackageTests::ProductTarget" /* DownPackageTests */,
 				"Down::DownTests" /* DownTests */,
@@ -841,11 +787,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				C0D60ADA25FB5E9900206BD4 /* cmark_ctype.c in Sources */,
+				C0D60AD325FB5E9900206BD4 /* man.c in Sources */,
 				OBJ_180 /* BaseNode.swift in Sources */,
 				OBJ_181 /* BlockQuote.swift in Sources */,
 				OBJ_182 /* ChildSequence.swift in Sources */,
+				C0D60ACB25FB5E9900206BD4 /* latex.c in Sources */,
 				OBJ_183 /* Code.swift in Sources */,
 				OBJ_184 /* CodeBlock.swift in Sources */,
+				C0D60ACE25FB5E9900206BD4 /* utf8.c in Sources */,
 				OBJ_185 /* CustomBlock.swift in Sources */,
 				OBJ_186 /* CustomInline.swift in Sources */,
 				OBJ_187 /* Document.swift in Sources */,
@@ -863,16 +813,21 @@
 				OBJ_199 /* SoftBreak.swift in Sources */,
 				OBJ_200 /* Strong.swift in Sources */,
 				OBJ_201 /* Text.swift in Sources */,
+				C0D60AD425FB5E9900206BD4 /* render.c in Sources */,
 				OBJ_202 /* ThematicBreak.swift in Sources */,
 				OBJ_203 /* ColorCollection.swift in Sources */,
+				C0D60AD525FB5E9900206BD4 /* inlines.c in Sources */,
 				OBJ_204 /* FontCollection.swift in Sources */,
 				OBJ_205 /* ParagraphStyleCollection.swift in Sources */,
 				OBJ_206 /* BlockBackgroundColorAttribute.swift in Sources */,
 				OBJ_207 /* QuoteStripeAttribute.swift in Sources */,
 				OBJ_208 /* ThematicBreakAttribute.swift in Sources */,
 				OBJ_209 /* CGPoint+Translate.swift in Sources */,
+				C0D60ACC25FB5E9900206BD4 /* houdini_href_e.c in Sources */,
 				OBJ_210 /* CGRect+Helpers.swift in Sources */,
+				C0D60AD625FB5E9900206BD4 /* iterator.c in Sources */,
 				OBJ_211 /* NSAttributedString+Helpers.swift in Sources */,
+				C0D60AD125FB5E9900206BD4 /* html.c in Sources */,
 				OBJ_212 /* NSMutableAttributedString+Attributes.swift in Sources */,
 				OBJ_213 /* UIFont+Traits.swift in Sources */,
 				OBJ_214 /* ListItemParagraphStyler.swift in Sources */,
@@ -880,19 +835,27 @@
 				OBJ_216 /* DownLayoutManager.swift in Sources */,
 				OBJ_217 /* CodeBlockOptions.swift in Sources */,
 				OBJ_218 /* ListItemOptions.swift in Sources */,
+				C0D60AD225FB5E9900206BD4 /* references.c in Sources */,
 				OBJ_219 /* QuoteStripeOptions.swift in Sources */,
 				OBJ_220 /* ThematicBreakOptions.swift in Sources */,
 				OBJ_221 /* DownStyler.swift in Sources */,
+				C0D60ACD25FB5E9900206BD4 /* houdini_html_u.c in Sources */,
 				OBJ_222 /* DownStylerConfiguration.swift in Sources */,
 				OBJ_223 /* Styler.swift in Sources */,
 				OBJ_224 /* DownDebugTextView.swift in Sources */,
+				C0D60AD925FB5E9900206BD4 /* cmark.c in Sources */,
+				C0D60AD725FB5E9900206BD4 /* commonmark.c in Sources */,
+				C0D60AD025FB5E9900206BD4 /* buffer.c in Sources */,
 				OBJ_225 /* DownTextView.swift in Sources */,
+				C0D60AC925FB5E9900206BD4 /* scanners.c in Sources */,
 				OBJ_226 /* AttributedStringVisitor.swift in Sources */,
 				OBJ_227 /* DebugVisitor.swift in Sources */,
 				OBJ_228 /* ListItemPrefixGenerator.swift in Sources */,
 				OBJ_229 /* Visitor.swift in Sources */,
 				OBJ_230 /* Down.swift in Sources */,
+				C0D60AAD25FB5E7A00206BD4 /* blocks.c in Sources */,
 				OBJ_231 /* DownErrors.swift in Sources */,
+				C0D60ACF25FB5E9900206BD4 /* xml.c in Sources */,
 				OBJ_232 /* DownOptions.swift in Sources */,
 				OBJ_233 /* NSAttributedString+HTML.swift in Sources */,
 				OBJ_234 /* String+ToHTML.swift in Sources */,
@@ -904,8 +867,10 @@
 				OBJ_240 /* DownLaTeXRenderable.swift in Sources */,
 				OBJ_241 /* DownRenderable.swift in Sources */,
 				OBJ_242 /* DownXMLRenderable.swift in Sources */,
+				C0D60ACA25FB5E9900206BD4 /* houdini_html_e.c in Sources */,
 				OBJ_243 /* BundleHelper.swift in Sources */,
 				OBJ_244 /* DownView.swift in Sources */,
+				C0D60AD825FB5E9900206BD4 /* node.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -933,40 +898,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_282 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_283 /* blocks.c in Sources */,
-				OBJ_284 /* buffer.c in Sources */,
-				OBJ_285 /* cmark.c in Sources */,
-				OBJ_286 /* cmark_ctype.c in Sources */,
-				OBJ_287 /* commonmark.c in Sources */,
-				OBJ_288 /* houdini_href_e.c in Sources */,
-				OBJ_289 /* houdini_html_e.c in Sources */,
-				OBJ_290 /* houdini_html_u.c in Sources */,
-				OBJ_291 /* html.c in Sources */,
-				OBJ_292 /* inlines.c in Sources */,
-				OBJ_293 /* iterator.c in Sources */,
-				OBJ_294 /* latex.c in Sources */,
-				OBJ_295 /* man.c in Sources */,
-				OBJ_296 /* node.c in Sources */,
-				OBJ_297 /* references.c in Sources */,
-				OBJ_298 /* render.c in Sources */,
-				OBJ_299 /* scanners.c in Sources */,
-				OBJ_300 /* utf8.c in Sources */,
-				OBJ_301 /* xml.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_247 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Down::libcmark" /* libcmark */;
-			targetProxy = C01AF75525FB436E00FAE709 /* PBXContainerItemProxy */;
-		};
 		OBJ_259 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Down::DownTests" /* DownTests */;
@@ -976,11 +910,6 @@
 			isa = PBXTargetDependency;
 			target = "Down::Down" /* Down */;
 			targetProxy = C01AF75625FB436E00FAE709 /* PBXContainerItemProxy */;
-		};
-		OBJ_278 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Down::libcmark" /* libcmark */;
-			targetProxy = C01AF75725FB436E00FAE709 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1137,68 +1066,6 @@
 			};
 			name = Release;
 		};
-		OBJ_280 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = NO;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/cmark",
-				);
-				INFOPLIST_FILE = Down.xcodeproj/libcmark_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = libcmark;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				TARGET_NAME = libcmark;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_281 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = NO;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/cmark",
-				);
-				INFOPLIST_FILE = Down.xcodeproj/libcmark_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = libcmark;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				TARGET_NAME = libcmark;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1294,15 +1161,6 @@
 			buildConfigurations = (
 				OBJ_262 /* Debug */,
 				OBJ_263 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_279 /* Build configuration list for PBXNativeTarget "libcmark" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_280 /* Debug */,
-				OBJ_281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

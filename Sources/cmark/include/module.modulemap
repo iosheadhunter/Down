@@ -1,5 +1,4 @@
 module libcmark [system][extern_c] {
-    umbrella header "../node.h"
+    header "../node.h"
     export *
-    module * { export * }
 }
