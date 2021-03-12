@@ -21,6 +21,22 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		C0A4484625FB5CEB004C3AE0 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484725FB5CEB004C3AE0 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* chunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484825FB5CEB004C3AE0 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484925FB5CEB004C3AE0 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* references.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484A25FB5CEB004C3AE0 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* scanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484B25FB5CEB004C3AE0 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484C25FB5CEB004C3AE0 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484D25FB5CEB004C3AE0 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484E25FB5CEB004C3AE0 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4484F25FB5CEB004C3AE0 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4485025FB5CEB004C3AE0 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4485125FB5CEB004C3AE0 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* render.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4485225FB5CEB004C3AE0 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* inlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4485325FB5CEB004C3AE0 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* cmark_ctype.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4485425FB5CEB004C3AE0 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A4485525FB5CEB004C3AE0 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* houdini.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_180 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BaseNode.swift */; };
 		OBJ_181 /* BlockQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BlockQuote.swift */; };
 		OBJ_182 /* ChildSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ChildSequence.swift */; };
@@ -152,9 +168,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0A4483925FB5AD9004C3AE0 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		"Down::Down::Product" /* Down.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Down::DownTests::Product" /* DownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = DownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Down::libcmark::Product" /* libcmark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libcmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Down::libcmark::Product" /* libcmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libcmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* cmark_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmark_version.h; sourceTree = "<group>"; };
 		OBJ_101 /* cmark_ctype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmark_ctype.h; sourceTree = "<group>"; };
 		OBJ_102 /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
@@ -204,7 +221,6 @@
 		OBJ_143 /* utf8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
 		OBJ_144 /* references.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = references.h; sourceTree = "<group>"; };
 		OBJ_145 /* render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
-		OBJ_146 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/almaz/Development/Forks/Down/Down.xcodeproj/GeneratedModuleMap/libcmark/module.modulemap; sourceTree = "<group>"; };
 		OBJ_15 /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 		OBJ_150 /* ListItemPrefixGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemPrefixGeneratorTests.swift; sourceTree = "<group>"; };
 		OBJ_151 /* NodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeTests.swift; sourceTree = "<group>"; };
@@ -326,6 +342,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0A4483825FB5AD9004C3AE0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C0A4483925FB5AD9004C3AE0 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* AST */ = {
 			isa = PBXGroup;
 			children = (
@@ -619,6 +643,7 @@
 		OBJ_91 /* libcmark */ = {
 			isa = PBXGroup;
 			children = (
+				C0A4483825FB5AD9004C3AE0 /* include */,
 				OBJ_92 /* cmark_export.h */,
 				OBJ_93 /* config.h */,
 				OBJ_94 /* chunk.h */,
@@ -673,7 +698,6 @@
 				OBJ_143 /* utf8.h */,
 				OBJ_144 /* references.h */,
 				OBJ_145 /* render.h */,
-				OBJ_146 /* module.modulemap */,
 			);
 			name = libcmark;
 			path = Sources/cmark;
@@ -681,11 +705,45 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C0A4484425FB5CD6004C3AE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A4484525FB5CE7004C3AE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A4485025FB5CEB004C3AE0 /* cmark_version.h in Headers */,
+				C0A4485325FB5CEB004C3AE0 /* cmark_ctype.h in Headers */,
+				C0A4484E25FB5CEB004C3AE0 /* cmark_export.h in Headers */,
+				C0A4485125FB5CEB004C3AE0 /* render.h in Headers */,
+				C0A4485225FB5CEB004C3AE0 /* inlines.h in Headers */,
+				C0A4484B25FB5CEB004C3AE0 /* node.h in Headers */,
+				C0A4484925FB5CEB004C3AE0 /* references.h in Headers */,
+				C0A4484D25FB5CEB004C3AE0 /* iterator.h in Headers */,
+				C0A4484725FB5CEB004C3AE0 /* chunk.h in Headers */,
+				C0A4484F25FB5CEB004C3AE0 /* utf8.h in Headers */,
+				C0A4484C25FB5CEB004C3AE0 /* cmark.h in Headers */,
+				C0A4484A25FB5CEB004C3AE0 /* scanners.h in Headers */,
+				C0A4484625FB5CEB004C3AE0 /* buffer.h in Headers */,
+				C0A4484825FB5CEB004C3AE0 /* parser.h in Headers */,
+				C0A4485425FB5CEB004C3AE0 /* config.h in Headers */,
+				C0A4485525FB5CEB004C3AE0 /* houdini.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		"Down::Down" /* Down */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_176 /* Build configuration list for PBXNativeTarget "Down" */;
 			buildPhases = (
+				C0A4484425FB5CD6004C3AE0 /* Headers */,
 				OBJ_179 /* Sources */,
 				OBJ_245 /* Frameworks */,
 			);
@@ -735,6 +793,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_279 /* Build configuration list for PBXNativeTarget "libcmark" */;
 			buildPhases = (
+				C0A4484525FB5CE7004C3AE0 /* Headers */,
 				OBJ_282 /* Sources */,
 				OBJ_302 /* Frameworks */,
 			);
