@@ -152,8 +152,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"Down::Down::Product" /* Down.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Down::DownTests::Product" /* DownTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Down::Down::Product" /* Down.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Down::DownTests::Product" /* DownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = DownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Down::libcmark::Product" /* libcmark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libcmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* cmark_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmark_version.h; sourceTree = "<group>"; };
 		OBJ_101 /* cmark_ctype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmark_ctype.h; sourceTree = "<group>"; };
@@ -480,7 +480,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -498,7 +498,6 @@
 				OBJ_173 /* README.md */,
 				OBJ_174 /* Down.podspec */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_52 /* Layout Managers */ = {
@@ -764,7 +763,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_161 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -938,7 +937,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/cmark",
-					"$(SRCROOT)/Down.xcodeproj/GeneratedModuleMap/libcmark",
+					"$(SRCROOT)/Sources/cmark/include",
 				);
 				INFOPLIST_FILE = Down.xcodeproj/Down_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -946,7 +945,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Down.xcodeproj/GeneratedModuleMap/libcmark/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/cmark/include/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = Down;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -970,7 +969,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/cmark",
-					"$(SRCROOT)/Down.xcodeproj/GeneratedModuleMap/libcmark",
+					"$(SRCROOT)/Sources/cmark/include",
 				);
 				INFOPLIST_FILE = Down.xcodeproj/Down_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -978,7 +977,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Down.xcodeproj/GeneratedModuleMap/libcmark/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/cmark/include/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = Down;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1033,7 +1032,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/cmark",
-					"$(SRCROOT)/Down.xcodeproj/GeneratedModuleMap/libcmark",
+					"$(SRCROOT)/Sources/cmark/include",
 				);
 				INFOPLIST_FILE = Down.xcodeproj/DownTests_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -1041,7 +1040,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Down.xcodeproj/GeneratedModuleMap/libcmark/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/cmark/include/module.modulemap";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = DownTests;
@@ -1062,7 +1061,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/cmark",
-					"$(SRCROOT)/Down.xcodeproj/GeneratedModuleMap/libcmark",
+					"$(SRCROOT)/Sources/cmark/include",
 				);
 				INFOPLIST_FILE = Down.xcodeproj/DownTests_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -1070,7 +1069,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Down.xcodeproj/GeneratedModuleMap/libcmark/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/cmark/include/module.modulemap";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = DownTests;

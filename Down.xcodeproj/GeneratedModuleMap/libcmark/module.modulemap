@@ -1,4 +1,0 @@
-module libcmark {
-    umbrella "/Users/almaz/Development/Forks/Down/Sources/cmark"
-    export *
-}
